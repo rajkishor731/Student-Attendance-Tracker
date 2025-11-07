@@ -45,3 +45,7 @@ if st.button("📋 Generate Attendance Report"):
         st.download_button("⬇️ Download Attendance Report", data=csv, file_name="attendance_report.csv", mime="text/csv")
     else:
         st.warning("Please fill in all student details before generating the report.")
+
+st.markdown("---")
+st.markdown("👨‍💻 Made by Raj Kishor")
+
